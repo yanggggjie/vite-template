@@ -7,8 +7,10 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+//    note for vercel node
+//    "moduleResolution": "bundler",
+//    "allowImportingTsExtensions": true,
+//    note
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -39,6 +41,8 @@
     "paths": {
       "@/*": ["src/*"]
     },
+// for vercel
+    "moduleResolution": "Node",
 
   },
   "include": ["src"],
